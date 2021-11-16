@@ -1,4 +1,36 @@
-# Getting Started with Create React App
+<p align='center'><a href="https://github.com/trieule50/martvelous/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/trieule50/martvelous?style=for-the-badge"></a>
+<a href="https://github.com/trieule50/martvelous/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/trieule50/martvelous?style=for-the-badge"></a>
+<a href="https://github.com/trieule50/martvelous/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/trieule50/martvelous?style=for-the-badge"></a>
+<a href="https://github.com/trieule50/martvelous"><img alt="GitHub license" src="https://img.shields.io/github/license/trieule50/martvelous?style=for-the-badge"></a>
+</p>
+
+<h1 align='center'>mARTvelous</h1>
+
+## Decription
+
+### Built With
+
+## Getting Started
+
+### Prerequisites
+
+### Installation
+
+## Usage
+
+## Roadmap
+
+## Project Status
+
+## Contributing
+
+## License
+
+## Acknowledgments
+
+## Contact
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +99,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `yarn build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
