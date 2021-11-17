@@ -10,4 +10,7 @@
 .landing-container{
   background-color: rgb(4,152,158);
   height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
