@@ -1,11 +1,20 @@
-import logo from '../../images/mARTvelous_logo.png'
+import logo from '../../images/paint_logo.png'
 import { Navbar, Container, Nav } from "react-bootstrap";
 
 const Navigation = () => {
     return(
         <Navbar bg='light' expand="lg">
             <Container>
-                <Navbar.Brand href="/home"><img  className='logo' src={logo} alt="mARTvelous"/></Navbar.Brand>
+                <Navbar.Brand href="/home">
+                    <img 
+                    width="30"
+                    height="30"
+                    className="d-inline-block align-top" 
+                    src={logo} 
+                    alt="mARTvelous"
+                    />
+                    mARTvelous
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
