@@ -10,6 +10,9 @@
 
 ### Built With
 
+- [React.js](https://reactjs.org/)
+- [Bootstrap](https://react-bootstrap.github.io/)
+
 ## Getting Started
 
 ### Prerequisites
