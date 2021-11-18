@@ -13,7 +13,7 @@ const UncontrolledLottie = () => {
     };
 
     return (
-      <div>
+      <div className='lotties'>
         <Lottie
           options={defaultOptions}
           height={400}

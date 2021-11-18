@@ -7,6 +7,7 @@ const Home = () =>{
             <div className='landing-item'>
                 <h1>Start Creating</h1>
                 <h1>Let Out your Inner Artist</h1>
+                <a href='/paintbox'>PaintBox</a>
             </div>
            <div className='landing-item'>
                <UncontrolledLotties/>

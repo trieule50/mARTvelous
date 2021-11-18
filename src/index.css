@@ -4,13 +4,31 @@
 
 .landing-container{
   background-color: rgb(4,152,158);
-  height: 65vh;
+  height: 90vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  border-top: black solid 2px;
+  border-bottom: black solid 2px;
 }
 
 .landing-item h1{
   color: whitesmoke;
+  margin-top: 2rem;
+}
+
+
+@media only screen and (max-width: 500px){
+  .lotties{
+    width: 25rem;
+    height: 25rem;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .lotties{
+    display: none;
+  }
+
 }
