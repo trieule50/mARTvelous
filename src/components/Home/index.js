@@ -3,6 +3,7 @@ import UncontrolledLotties from '../UncontrolledLottie';
 
 const Home = () =>{
     return(
+        <div>
         <div className='landing-container'>
             <div className='landing-item one'>
                 <h1>Art is for Everyone</h1>
@@ -14,7 +15,10 @@ const Home = () =>{
                <UncontrolledLotties/>
            </div>
         </div>
-        
+        <div className='faq-action'>
+            <p>See our <a href='/faq'>FAQ</a>, if you have any questions.</p>
+        </div>
+        </div>
     )
 }
 
