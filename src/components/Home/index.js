@@ -18,6 +18,10 @@ const Home = () =>{
         <div className='faq-action'>
             <p>See our <a href='/faq'>FAQ</a>, if you have any questions.</p>
         </div>
+        <div className='what-is-app'>
+            <img className='logo' src={logo} alt='logo'/>
+            <h1>What is mARTvelous?</h1>
+        </div>
         </div>
     )
 }
