@@ -14,16 +14,18 @@
 }
 
 .one{
-  width: 22rem;
+  width: 23rem;
 }
 
 .call-to-action{
   color: whitesmoke;
+  font-family: 'Karla', serif;
 }
 
 .landing-item h1{
   color: whitesmoke;
   margin-bottom: 2rem;
+  font-family: 'Merriweather', serif;
 }
 
 .statement-one{
