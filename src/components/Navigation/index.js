@@ -5,7 +5,7 @@ const Navigation = () => {
     return(
         <Navbar bg='light' expand="lg">
             <Container>
-                <Navbar.Brand href="/home">
+                <Navbar.Brand href="/">
                     <img 
                     width="30"
                     height="30"
@@ -18,7 +18,7 @@ const Navigation = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link class="nav-link" href="/home">Home</Nav.Link>
+                        <Nav.Link class="nav-link" href="/">Home</Nav.Link>
                         <Nav.Link class="nav-link" href="/paintbox">PaintBox</Nav.Link>
                         <Nav.Link class="nav-link" href="/faq">FAQ</Nav.Link>
                     </Nav>
