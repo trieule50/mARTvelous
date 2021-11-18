@@ -16,6 +16,7 @@
 ### Dependencies
 - React Router Dom 
 - React Lottie
+- React Canvas Draw
 
 ## Getting Started
 
