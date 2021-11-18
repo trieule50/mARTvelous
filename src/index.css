@@ -4,9 +4,13 @@
 
 .landing-container{
   background-color: rgb(4,152,158);
-  height: 85vh;
+  height: 65vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.landing-item h1{
+  color: whitesmoke;
 }

@@ -13,6 +13,10 @@
 - [React.js](https://reactjs.org/)
 - [Bootstrap](https://react-bootstrap.github.io/)
 
+### Dependencies
+- React Router Dom 
+- React Lottie
+
 ## Getting Started
 
 ### Prerequisites
