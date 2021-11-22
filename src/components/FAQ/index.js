@@ -13,7 +13,7 @@ const FAQ = () => {
     };
 
     return(
-        <div className='main-faq'>
+        <div className='main-faq' flush>
             <div className='main-faq-item'>
             <h1>FAQ's</h1>
                 <small>Find the Answers to Frequently Asked Questions About mARTvelous.</small>
@@ -50,7 +50,7 @@ const FAQ = () => {
                         A: That is a feature that is currently being worked on. Predicted release date: January 2022.
                     </Accordion.Body>
                 </Accordion.Item>
-                <Accordion.Item eventKey="8">
+                <Accordion.Item eventKey="4">
                     <Accordion.Header>Q: I can't find the answer to my question.</Accordion.Header>
                     <Accordion.Body>
                         A: Please feel free to contact trieule50@yahoo.com.
