@@ -19,8 +19,30 @@ const Home = () =>{
             <p>See our <a href='/faq'>FAQ</a>, if you have any questions.</p>
         </div>
         <div className='what-is-app'>
-            <img className='logo' src={logo} alt='logo'/>
-            <h1>What is mARTvelous?</h1>
+            <div>
+                <img className='logo' src={logo} alt='logo'/>
+            </div>
+            <div>
+                <h1>What is mARTvelous?</h1>
+                <p>mARTvelous is a paint application that allows user to bring out their inner artist.</p>
+                <div>
+                    <h3>Features:</h3>
+                    <ul>
+                        <li>
+                            <img style={{height:'2rem'}} src="https://img.icons8.com/ios/50/000000/customize-view.png"/>
+                            Ability to customized line colors.
+                        </li>
+                        <li>
+                            <img style={{height:'2rem'}}  src="https://img.icons8.com/ios-glyphs/30/000000/erase.png"/>
+                            Ability to eraser.
+                        </li>
+                        <li>
+                            <img style={{height:'2rem'}}  src="https://img.icons8.com/ios-glyphs/30/000000/book.png"/>
+                            Acts as a coloring book.
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
         </div>
     )
