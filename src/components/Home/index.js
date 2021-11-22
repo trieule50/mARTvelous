@@ -1,4 +1,6 @@
+import { Container, Card, Button } from 'react-bootstrap';
 import logo from '../../images/mARTvelous_logo.png';
+import trieu from '../../images/TLCover.png'
 import UncontrolledLotties from '../UncontrolledLottie';
 
 const Home = () =>{
@@ -44,7 +46,28 @@ const Home = () =>{
                 </div>
             </div>
         </div>
+        <div className='how-to'>
+            <h1>How-to</h1>
         </div>
+        <div className='meet-the-engineer'>
+            <div className='meet-the-engineer-item'>
+                <h1>Meet the Engineer</h1>
+            </div>
+            <div>
+                <Card border='dark' style={{ width: '40rem', textAlign:'center' }}>
+                    <Card.Img variant="top" src={trieu} style={{height:'20rem', width:'15rem', margin:'auto'}}/>
+                    <Card.Body>
+                        <Card.Title>Trieu Le</Card.Title>
+                        <Card.Text>
+                        Trieu is a civil engineer turned software. Experienced in React, JavaScript, and Python. She is eager to contribute to team success through hard work, attention to detail and excellent organizational skills. As well as, enjoy solving problems in the most unorthodox way and creating projects that the general public uses will use one day.
+                        </Card.Text>
+                        <Button className='button' variant="dark" href='https://www.linkedin.com/in/trieule1/' target='_blank'>LinkedIn</Button>
+                        <Button className='button'  variant="dark" href='https://github.com/trieule50' target='_blank'>GitHub</Button>
+                    </Card.Body>
+                </Card>
+            </div>
+        </div>
+    </div>
     )
 }
 
