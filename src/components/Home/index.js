@@ -47,7 +47,19 @@ const Home = () =>{
             </div>
         </div>
         <div className='how-to'>
-            <h1>How-to</h1>
+            <div className='how-to-item'>
+                <h1>How-to</h1>
+                <ol>
+                    <li>Click on "PaintBox".</li>
+                    <li>Choose your color.</li>
+                    <li>Start creating.</li>
+                </ol>
+            </div>
+            <div className='how-to-item'>
+                <video width='' height='' autoplay>
+                    <source src='' type='video/mp4'/>
+                </video>
+            </div>
         </div>
         <div className='meet-the-engineer'>
             <div className='meet-the-engineer-item'>
