@@ -6,7 +6,7 @@
 
 <h1 align='center'>mARTvelous</h1>
 
-<img align='center' src='./src/images/mARTvelous_logo.png'/>
+<img margin='auto' src='./src/images/mARTvelous_logo.png'/>
 
 ## Decription
 Whether you need to take a break, do a quick sketch, or express yourself, mARTvelous is a paint application that allows user to bring out their inner artist. As well as provide you the tool necessary for you.
@@ -37,11 +37,17 @@ To get a local copy up and running follow these simple steps:
 mARTvelous requires `yarn` to run.
 
 1. Download the repo using git.
-    `git clone git@github.com:trieule50/martvelous.git`
+    ```
+    git clone git@github.com:trieule50/martvelous.git
+    ```
 2. Install Yarn dependencies
-    `yarn add react-bootstrap react-router-dom react-lottie react-canvas-draw`
+    ```
+    yarn add react-bootstrap react-router-dom react-lottie react-canvas-draw
+    ```
 3. Start the Server
-    `yarn start`
+    ```
+    yarn start
+    ```
 
 ## Learning Experience
 
