@@ -19,10 +19,10 @@ const Home = () =>{
             <p>See our <a href='/faq'>FAQ</a>, if you have any questions.</p>
         </div>
         <div className='what-is-app'>
-            <div>
+            <div className='what-is-app-item'>
                 <img className='logo' src={logo} alt='logo'/>
             </div>
-            <div>
+            <div className='what-is-app-item'>
                 <h1>What is mARTvelous?</h1>
                 <p>mARTvelous is a paint application that allows user to bring out their inner artist.</p>
                 <div>

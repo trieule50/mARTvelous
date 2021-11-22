@@ -1,3 +1,7 @@
+.logo{
+  height: 20rem;
+}
+
 .nav-link{
   font-size: 1.1rem;
 }
@@ -67,6 +71,42 @@
   width: 75vh;
 }
 
+.what-is-app{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+h1{
+  font-family: 'Merriweather', serif;
+}
+
+p{
+  font-family: 'Karla', serif;
+}
+
+h3{
+  padding-bottom: 1rem;
+  font-family: 'Merriweather', serif;
+}
+
+.what-is-app-item{
+  width: 23rem;
+}
+
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  padding-bottom: 2rem;
+  font-family: 'Karla', serif;
+}
+
+li > img{
+  padding-right: 2rem;
+}
 
 @media only screen and (max-width: 500px){
   .lotties{
