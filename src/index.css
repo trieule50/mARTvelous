@@ -168,6 +168,11 @@ h5{
   text-decoration: none;
 }
 
+.paintbox-main{
+  text-align: center;
+  height: 80vh;
+}
+
 .main-faq{
   background-color: rgb(4,152,158);
   padding: 2rem 3rem;

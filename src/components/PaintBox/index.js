@@ -13,7 +13,7 @@ const PaintBox = () => {
     });
 
     return(
-        <div>
+        <div className='paintbox-main'>
             <h1>PaintBox</h1>
             <Container className='canvas'>
                 <CanvasDraw
