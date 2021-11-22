@@ -54,7 +54,7 @@ const Home = () =>{
                 <h1>Meet the Engineer</h1>
             </div>
             <div>
-                <Card border='dark' style={{ width: '40rem', textAlign:'center' }}>
+                <Card border='dark' style={{ width: '20rem', textAlign:'center' }}>
                     <Card.Img variant="top" src={trieu} style={{height:'20rem', width:'15rem', margin:'auto'}}/>
                     <Card.Body>
                         <Card.Title>Trieu Le</Card.Title>

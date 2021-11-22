@@ -2,6 +2,7 @@ import Navigation from './components/Navigation';
 import Home from './components/Home';
 import FAQ from './components/FAQ';
 import PaintBox from './components/PaintBox';
+import Footer from './components/Footer';
 
 import { Routes, Route} from 'react-router-dom';
 
@@ -16,6 +17,7 @@ function App() {
           <Route path='/' element={<Home/>}/>
         </Routes>
       </main>
+      <Footer/>
     </div>
   );
 }
