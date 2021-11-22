@@ -6,10 +6,12 @@
 
 <h1 align='center'>mARTvelous</h1>
 
+<img src='./src/images/mARTvelous_logo.png'/>
+
 ## Decription
 Whether you need to take a break, do a quick sketch, or express yourself, mARTvelous is a paint application that allows user to bring out their inner artist. As well as provide you the tool necessary for you.
 
-Project Link: [mARTvelous]()
+Project Link: [mARTvelous](https://martvelous.netlify.app/)
 
 mARTvelous is an application built to be submitted in Mintbean's November Hiring Hackathon: Jr. Web Devs. Mintbean is a professional community for software developer. For more information, please vist [MintBean](https://info.mintbean.io/). 
 
@@ -24,8 +26,10 @@ mARTvelous is an application built to be submitted in Mintbean's November Hiring
 - React Canvas Draw
 
 ## Getting Started
+To get a local copy up and running follow these simple steps:
 
 ### Prerequisites
+- 
 
 ### Installation
 
@@ -54,6 +58,7 @@ Steps:
 
 
 ## License
+- License - Not Specified
 
 ## Acknowledgments
 - [Animated SVG --- Pixeltrue](https://www.pixeltrue.com/free-illustrations)
@@ -64,5 +69,5 @@ Steps:
 
 Trieu Le -- trieule50@yahoo.com
 
-Project Link: [mARTvelous]()
+Project Link: [mARTvelous](https://martvelous.netlify.app/)
 
