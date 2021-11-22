@@ -43,7 +43,8 @@
 
 .button{
   background-color: black;
-  padding: .75rem 2rem;
+  padding: .50rem 1.5rem;
+  margin: .5rem;
   border-radius: 100px;
   font-weight: bold;
   color: whitesmoke;
