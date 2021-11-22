@@ -167,8 +167,14 @@ h5{
   text-decoration: none;
 }
 
+.main-faq{
+  background-color: rgb(4,152,158);
+  padding: 2rem 3rem;
+}
+
 .main-faq-item{
   text-align: center;
+  color: white;
 }
 
 @media only screen and (max-width: 500px){
