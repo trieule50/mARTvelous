@@ -6,7 +6,7 @@
 
 <h1 align='center'>mARTvelous</h1>
 
-<img src='./src/images/mARTvelous_logo.png'/>
+<img align='center' src='./src/images/mARTvelous_logo.png'/>
 
 ## Decription
 Whether you need to take a break, do a quick sketch, or express yourself, mARTvelous is a paint application that allows user to bring out their inner artist. As well as provide you the tool necessary for you.
@@ -15,29 +15,49 @@ Project Link: [mARTvelous](https://martvelous.netlify.app/)
 
 mARTvelous is an application built to be submitted in Mintbean's November Hiring Hackathon: Jr. Web Devs. Mintbean is a professional community for software developer. For more information, please vist [MintBean](https://info.mintbean.io/). 
 
-### Built With
+### Tech Stack / Built With
 
+#### Front End
 - [React.js](https://reactjs.org/)
 - [Bootstrap](https://react-bootstrap.github.io/)
 
-### Dependencies
+#### Dependencies
 - React Router Dom 
 - React Lottie
 - React Canvas Draw
 
+#### Deployment
+- Netlify
+
 ## Getting Started
 To get a local copy up and running follow these simple steps:
 
-### Prerequisites
-- 
-
 ### Installation
 
-## Usage
+mARTvelous requires `yarn` to run.
 
-## Roadmap
+1. Download the repo using git.
+    `git clone git@github.com:trieule50/martvelous.git`
+2. Install Yarn dependencies
+    `yarn add react-bootstrap react-router-dom react-lottie react-canvas-draw`
+3. Start the Server
+    `yarn start`
 
-## Project Status
+## Learning Experience
+
+## Features / Accomplishments
+- Users can drag their mouse across the screen to make free-form lines.
+- Users can click areas of the screen with their mouse to fill them with a color. 
+- Users can choose a picture to color.
+
+## Future Directions
+- [] Create a backend allowing users to do the following:
+    - [] Share artwork
+    - [] Edit artwork
+    - [] Post artwork
+    - [] Comment artwork
+- [] Add more customizing feature
+- [] Adding different texture (pencil, brush, airbrush tool)
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
