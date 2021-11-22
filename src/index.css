@@ -167,6 +167,10 @@ h5{
   text-decoration: none;
 }
 
+.main-faq-item{
+  text-align: center;
+}
+
 @media only screen and (max-width: 500px){
   .lotties{
     width: 25rem;
