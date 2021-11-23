@@ -1,8 +1,10 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Container, Row, Col, Button } from "react-bootstrap";
 import CanvasDraw from "react-canvas-draw";
-
-
+import snail from '../../images/snail.png';
+import giraffe from '../../images/giraffe.png';
+import gecko from '../../images/gecko.png';
+import deer from '../../images/deer.png';
 
 const PaintBox = () => {
 
@@ -16,12 +18,17 @@ const PaintBox = () => {
         setLineWeight(event.target.value)
     }
 
+    const handleColoringPage = (event) =>{
+        setColorPage(event.target.value)
+    }
+
     const handleReload = () =>{
         window.location.reload();
     }
 
     const [userColor, setUserColor] = useState('');
-    const [lineWeight, setLineWeight] = useState(5)
+    const [lineWeight, setLineWeight] = useState(5);
+    const [colorPage, setColorPage] = useState([]);
 
     const [setting, setSetting] = useState({
         width: 375,
@@ -43,6 +50,7 @@ const PaintBox = () => {
                 brushColor={userColor}
                 brushRadius={lineWeight}
                 lazyRadius={1}
+                imgSrc={colorPage}
                 />
             </div>
             <div className='canvas-item'>
@@ -73,13 +81,21 @@ const PaintBox = () => {
                     </Row>
                     <Row className='canvas-item-image toolbox'>
                         <Col>
+                        <label htmlFor="image">Choose an Image </label>
+                        <select id="image" name="image" onChange={handleColoringPage}>
+                            <option value="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOAAAADhCAMAAADmr0l2AAAAA1BMVEX///+nxBvIAAAASElEQVR4nO3BMQEAAADCoPVPbQdvoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABOA8XBAAGwGMP0AAAAAElFTkSuQmCC">Blank</option>
+                            <option value={snail}>Snail</option>
+                            <option value={giraffe}>Giraffe</option>
+                            <option value={gecko}>Gecko</option>
+                            <option value={deer}>Deer</option>
+                        </select>
                         </Col>
                     </Row>
                 </Container>
             </div>
             </div>
             <div>
-                <Button variant="danger" onClick={handleReload}>Start Over</Button>
+                <Button variant="danger" onClick={handleReload} className='start-over'>Start Over</Button>
             </div>
         </div>
     )

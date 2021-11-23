@@ -1,4 +1,4 @@
-import { Container, Card, Button } from 'react-bootstrap';
+import { Card, Button } from 'react-bootstrap';
 import logo from '../../images/mARTvelous_logo.png';
 import trieu from '../../images/TLCover.png'
 import UncontrolledLotties from '../UncontrolledLottie';
@@ -31,15 +31,15 @@ const Home = () =>{
                     <h3>Features:</h3>
                     <ul>
                         <li>
-                            <img style={{height:'2rem'}} src="https://img.icons8.com/ios/50/000000/customize-view.png"/>
+                            <img style={{height:'2rem'}} src="https://img.icons8.com/ios/50/000000/customize-view.png" alt='adjustment'/>
                             Ability to customized line colors.
                         </li>
                         <li>
-                            <img style={{height:'2rem'}}  src="https://img.icons8.com/ios-glyphs/30/000000/erase.png"/>
+                            <img style={{height:'2rem'}}  src="https://img.icons8.com/ios-glyphs/30/000000/erase.png" alt='eraser'/>
                             Ability to eraser.
                         </li>
                         <li>
-                            <img style={{height:'2rem'}}  src="https://img.icons8.com/ios-glyphs/30/000000/book.png"/>
+                            <img style={{height:'2rem'}}  src="https://img.icons8.com/ios-glyphs/30/000000/book.png" alt='coloring book'/>
                             Acts as a coloring book.
                         </li>
                     </ul>

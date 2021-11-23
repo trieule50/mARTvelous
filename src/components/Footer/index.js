@@ -28,7 +28,7 @@ const Footer = () =>{
                </Row>
            </Container>
            <Container>
-                <img style={{width: '5rem'}} src={logo}/>
+                <img style={{width: '5rem'}} src={logo} alt='logo'/>
            </Container>
         </div>
     )
