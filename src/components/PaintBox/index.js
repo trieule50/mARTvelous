@@ -7,11 +7,11 @@ import CanvasDraw from "react-canvas-draw";
 const PaintBox = () => {
 
     const handleColorChange = (event) =>{
-        // event.preventDefault();
-        setUserChoice(event.target.value)
+        event.preventDefault();
+        setUserColor(event.target.value)
     }
 
-    const [userChoice, setUserChoice] = useState('');
+    const [userColor, setUserColor] = useState('');
 
     const [setting, setSetting] = useState({
         width: 500,
@@ -30,7 +30,7 @@ const PaintBox = () => {
                 canvasHeight={setting.height}
                 gridColor={setting.gridColor}
                 hideGrid={setting.hideGrid}
-                brushColor={userChoice}
+                brushColor={userColor}
                 />
             </div>
             <div className='canvas-item'>
