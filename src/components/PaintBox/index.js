@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Container, Row, Col, Form } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import CanvasDraw from "react-canvas-draw";
 
 
@@ -11,7 +11,17 @@ const PaintBox = () => {
         setUserColor(event.target.value)
     }
 
+    const handleLineWeight = (event) =>{
+        event.preventDefault();
+        setLineWeight(event.target.value)
+    }
+
+    const handleReload = () =>{
+        window.location.reload();
+    }
+
     const [userColor, setUserColor] = useState('');
+    const [lineWeight, setLineWeight] = useState(5)
 
     const [setting, setSetting] = useState({
         width: 500,
@@ -31,23 +41,29 @@ const PaintBox = () => {
                 gridColor={setting.gridColor}
                 hideGrid={setting.hideGrid}
                 brushColor={userColor}
+                brushRadius={lineWeight}
                 />
             </div>
             <div className='canvas-item'>
                 <Container>
                     <Row className='canvas-item-erase'>
                         <Col>
-                        <label>Eraser <button value='#ffffff' onClick={handleColorChange}></button>
-                        </label>
+                            <label>Eraser 
+                                <button value='#ffffff' onClick={handleColorChange}></button>
+                            </label>
                         </Col>
                     </Row>
                     <Row className='canvas-item-line-weight'>
-                        <Col>Line Weight</Col>
+                        <Col>
+                            <label>Line Weight 
+                                <input type="range" id="volume" name="volume" min="1" max="100" onChange={handleLineWeight}></input>
+                            </label>
+                        </Col>
                     </Row>
                     <Row className='canvas-item-line-color'>
                         <Col>
                             <label>Line Color
-                            <input type="color" id="body" name="body" onChange={handleColorChange}/>
+                                <input type="color" id="body" name="body" onChange={handleColorChange}/>
                             </label>
                         </Col>
                     </Row>
@@ -56,6 +72,9 @@ const PaintBox = () => {
                     </Row>
                 </Container>
             </div>
+            </div>
+            <div>
+                <Button variant="danger" onClick={handleReload}>Start Over</Button>
             </div>
         </div>
     )
