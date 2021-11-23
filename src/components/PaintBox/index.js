@@ -24,7 +24,7 @@ const PaintBox = () => {
     const [lineWeight, setLineWeight] = useState(5)
 
     const [setting, setSetting] = useState({
-        width: 500,
+        width: 375,
         height: 500,
         gridColor: "rgba(0,0,0,1)",
         hideGrid: true,
@@ -42,32 +42,35 @@ const PaintBox = () => {
                 hideGrid={setting.hideGrid}
                 brushColor={userColor}
                 brushRadius={lineWeight}
+                lazyRadius={1}
                 />
             </div>
             <div className='canvas-item'>
                 <Container>
-                    <Row className='canvas-item-erase'>
+                    <Row className='canvas-item-erase toolbox'>
                         <Col>
-                            <label>Eraser 
-                                <button value='#ffffff' onClick={handleColorChange}></button>
+                            <label className='toolbox-label' htmlFor='eraser'>Eraser 
                             </label>
+                                <button 
+                                id='eraser'
+                                className='eraser' value='#ffffff' onClick={handleColorChange}></button>
                         </Col>
                     </Row>
-                    <Row className='canvas-item-line-weight'>
+                    <Row className='canvas-item-line-weight toolbox'>
                         <Col>
-                            <label>Line Weight 
-                                <input type="range" id="volume" name="volume" min="1" max="100" onChange={handleLineWeight}></input>
+                            <label className='toolbox-label' htmlFor='lineWeight'>Line Weight 
                             </label>
+                                <input type="range" id="lineWeight" name="lineWeight" min="1" max="100" onChange={handleLineWeight}></input>
                         </Col>
                     </Row>
-                    <Row className='canvas-item-line-color'>
+                    <Row className='canvas-item-line-color toolbox'>
                         <Col>
-                            <label>Line Color
-                                <input type="color" id="body" name="body" onChange={handleColorChange}/>
+                            <label className='toolbox-label' htmlFor='color'>Line Color
                             </label>
+                                <input type="color" id="color" name="body" onChange={handleColorChange}/>
                         </Col>
                     </Row>
-                    <Row className='canvas-item-image'>
+                    <Row className='canvas-item-image toolbox'>
                         <Col>Image</Col>
                     </Row>
                 </Container>

@@ -170,7 +170,7 @@ h5{
 
 .paintbox-main{
   text-align: center;
-  height: 100vh;
+  padding-bottom: 2rem;
   background-color: rgb(39, 40, 34);
 }
 
@@ -183,6 +183,7 @@ h5{
   margin-top: 2.5rem;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .canvas-item{
@@ -197,6 +198,22 @@ h5{
 .main-faq-item{
   text-align: center;
   color: white;
+}
+
+.eraser{
+  height: 1rem;
+}
+
+.eraser > img{
+  height: 1rem;
+}
+
+.toolbox{
+  padding: 1rem;
+}
+
+.toolbox-label{
+  margin-right: 2rem;
 }
 
 @media only screen and (max-width: 500px){
