@@ -51,27 +51,29 @@ const PaintBox = () => {
                         <Col>
                             <label className='toolbox-label' htmlFor='eraser'>Eraser 
                             </label>
-                                <button 
+                            <button 
                                 id='eraser'
-                                className='eraser' value='#ffffff' onClick={handleColorChange}></button>
+                                className='eraser' value='#ffffff' onClick={handleColorChange}>
+                            </button>
                         </Col>
                     </Row>
                     <Row className='canvas-item-line-weight toolbox'>
                         <Col>
                             <label className='toolbox-label' htmlFor='lineWeight'>Line Weight 
                             </label>
-                                <input type="range" id="lineWeight" name="lineWeight" min="1" max="100" onChange={handleLineWeight}></input>
+                            <input type="range" id="lineWeight" name="lineWeight" min="1" max="100" onChange={handleLineWeight}></input>
                         </Col>
                     </Row>
                     <Row className='canvas-item-line-color toolbox'>
                         <Col>
                             <label className='toolbox-label' htmlFor='color'>Line Color
                             </label>
-                                <input type="color" id="color" name="body" onChange={handleColorChange}/>
+                            <input type="color" id="color" name="body" onChange={handleColorChange}/>
                         </Col>
                     </Row>
                     <Row className='canvas-item-image toolbox'>
-                        <Col>Image</Col>
+                        <Col>
+                        </Col>
                     </Row>
                 </Container>
             </div>
