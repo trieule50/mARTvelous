@@ -36,16 +36,19 @@ const PaintBox = () => {
             <div className='canvas-item'>
                 <Container>
                     <Row className='canvas-item-erase'>
-                        <Col>Erase</Col>
+                        <Col>
+                        <label>Eraser <button value='#ffffff' onClick={handleColorChange}></button>
+                        </label>
+                        </Col>
                     </Row>
                     <Row className='canvas-item-line-weight'>
                         <Col>Line Weight</Col>
                     </Row>
                     <Row className='canvas-item-line-color'>
                         <Col>
-                            <label for='line-color'>Line Color</label>
-                            <input type="color" id="body" name="body"
-                            onChange={handleColorChange}/>
+                            <label>Line Color
+                            <input type="color" id="body" name="body" onChange={handleColorChange}/>
+                            </label>
                         </Col>
                     </Row>
                     <Row className='canvas-item-image'>
