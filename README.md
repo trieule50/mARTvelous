@@ -51,6 +51,9 @@ mARTvelous requires `yarn` to run.
 
 ## Learning Experience
 
+1. Cutting problems into smaller pieces and console.log any unknown data. By writing small lines of code and console.log any data, I understood where the bug located and what output I was receiving. 
+2. Read documentation and libraries. Most of the error are from misinterpreting the data.
+
 ## Features / Accomplishments
 - Users can drag their mouse across the screen to make free-form lines.
 - Users can click areas of the screen with their mouse to fill them with a color. 

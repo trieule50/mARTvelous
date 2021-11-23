@@ -97,7 +97,12 @@ h3{
   display: flex;
   justify-content: space-around;
   background-color: rgb(210, 156, 85);
-  padding: 4rem;
+  padding-bottom: 2rem;
+}
+
+.how-to-item{
+  display: flex;
+  align-items: center;
 }
 
 .how-to-item h1{
@@ -208,6 +213,10 @@ h5{
   height: 1rem;
 }
 
+.start-over{
+  margin-top: 1.5rem;
+}
+
 .toolbox{
   padding: 1rem;
 }
@@ -223,7 +232,7 @@ h5{
   }
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 414px){
   .lotties{
     display: none;
   }

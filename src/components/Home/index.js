@@ -2,6 +2,7 @@ import { Card, Button } from 'react-bootstrap';
 import logo from '../../images/mARTvelous_logo.png';
 import trieu from '../../images/TLCover.png'
 import UncontrolledLotties from '../UncontrolledLottie';
+import video from '../../video/video.mp4';
 
 const Home = () =>{
     return(
@@ -48,16 +49,18 @@ const Home = () =>{
         </div>
         <div className='how-to'>
             <div className='how-to-item'>
+                <div>
                 <h1>How-to</h1>
                 <ol>
                     <li>Click on "PaintBox".</li>
                     <li>Choose your color.</li>
                     <li>Start creating.</li>
                 </ol>
+                </div>
             </div>
-            <div className='how-to-item'>
-                <video width='' height='' autoplay>
-                    <source src='' type='video/mp4'/>
+            <div className='how-to-item video'>
+                <video width='500rem' height='400rem' controls>
+                    <source src={video} type='video/mp4'/>
                 </video>
             </div>
         </div>

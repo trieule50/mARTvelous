@@ -81,7 +81,7 @@ const PaintBox = () => {
                     </Row>
                     <Row className='canvas-item-image toolbox'>
                         <Col>
-                        <label htmlFor="image">Choose an Image </label>
+                        <label htmlFor="image" className='toolbox-label'>Choose an Image </label>
                         <select id="image" name="image" onChange={handleColoringPage}>
                             <option value="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOAAAADhCAMAAADmr0l2AAAAA1BMVEX///+nxBvIAAAASElEQVR4nO3BMQEAAADCoPVPbQdvoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABOA8XBAAGwGMP0AAAAAElFTkSuQmCC">Blank</option>
                             <option value={snail}>Snail</option>
