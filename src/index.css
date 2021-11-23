@@ -170,7 +170,18 @@ h5{
 
 .paintbox-main{
   text-align: center;
-  height: 80vh;
+  height: 90vh;
+}
+
+.paintbox-main h1{
+  padding-top: 2rem;
+}
+
+.canvas{
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: space-around;
+
 }
 
 .main-faq{
