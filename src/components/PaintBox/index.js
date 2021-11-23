@@ -11,8 +11,7 @@ const PaintBox = () => {
         height: 500,
         brushColor: "#444",
         gridColor: "rgba(0,0,0,1)",
-        gridSizeX: 2,
-        gridSizeY: 2
+        hideGrid: true,
     });
 
     return(
@@ -24,8 +23,7 @@ const PaintBox = () => {
                 canvasWidth={setting.width}
                 canvasHeight={setting.height}
                 gridColor={setting.gridColor}
-                gridSizeX={setting.gridSizeX}
-                gridSizeY={setting.gridSizeY}
+                hideGrid={setting.hideGrid}
                 />
             </div>
             <div className='canvas-item'>
