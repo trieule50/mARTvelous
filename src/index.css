@@ -185,6 +185,10 @@ h5{
   justify-content: space-around;
 }
 
+.canvas-item{
+  color: white;
+}
+
 .main-faq{
   background-color: rgb(4,152,158);
   padding: 2rem 3rem;
